@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#calc {
+    display: flex;
+    min-height: 95vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: azure;
+}
+
+#container {
+    background-color: black;
+    border: 10px solid rgba(47, 47, 47, 1);
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    gap
+}
